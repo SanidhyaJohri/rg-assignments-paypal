@@ -7,7 +7,7 @@ import java.util.List;
 public class EmployeeJDBC {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/mydatabase";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "Shubham123#";
+    private static final String PASSWORD = "YourPass";
 
     private static final String INSERT_SQL = "INSERT INTO employees (id, name, department) VALUES (?, ?, ?)";
     private static final String SELECT_BY_ID_SQL = "SELECT * FROM employees WHERE id = ?";
